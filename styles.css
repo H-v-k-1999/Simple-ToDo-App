@@ -1,0 +1,15 @@
+.container {
+	max-width: 800px;
+}
+
+.verticle-align-center {
+  padding: 1px 0px;
+}
+
+[type="checkbox"] + span:not(.lever):before, [type="checkbox"]:not(.filled-in) + span:not(.lever):after {
+    top: 4px;
+}
+
+[type="checkbox"] + span:not(.lever) {
+    padding-top: 4px;
+}
